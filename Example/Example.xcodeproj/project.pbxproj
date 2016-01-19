@@ -29,6 +29,8 @@
 		3A9EDBB216DDF24C0017C4ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9EDBB116DDF24C0017C4ED /* QuartzCore.framework */; };
 		3A9EDBB816DE8FAF0017C4ED /* MSCurrentTimeGridline.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EDBB716DE8FAF0017C4ED /* MSCurrentTimeGridline.m */; };
 		3A9EDBBB16DE8FEB0017C4ED /* MSCurrentTimeIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EDBBA16DE8FEB0017C4ED /* MSCurrentTimeIndicator.m */; };
+		41388B5D1C4D35C300A0104B /* AKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 41388B5C1C4D35C300A0104B /* AKEvent.m */; settings = {ASSET_TAGS = (); }; };
+		41388B601C4D369C00A0104B /* AKSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 41388B5F1C4D369C00A0104B /* AKSection.m */; settings = {ASSET_TAGS = (); }; };
 		73FE75D8C4884452BD700225 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FEEAE8C40D4C23B857EFA6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,10 @@
 		3A9EDBB716DE8FAF0017C4ED /* MSCurrentTimeGridline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCurrentTimeGridline.m; sourceTree = "<group>"; };
 		3A9EDBB916DE8FEB0017C4ED /* MSCurrentTimeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCurrentTimeIndicator.h; sourceTree = "<group>"; };
 		3A9EDBBA16DE8FEB0017C4ED /* MSCurrentTimeIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCurrentTimeIndicator.m; sourceTree = "<group>"; };
+		41388B5B1C4D35C300A0104B /* AKEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKEvent.h; sourceTree = "<group>"; };
+		41388B5C1C4D35C300A0104B /* AKEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKEvent.m; sourceTree = "<group>"; };
+		41388B5E1C4D369C00A0104B /* AKSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSection.h; sourceTree = "<group>"; };
+		41388B5F1C4D369C00A0104B /* AKSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSection.m; sourceTree = "<group>"; };
 		68FEEAE8C40D4C23B857EFA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		807B751049998BA6C860E999 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +205,10 @@
 				3A9EDBA416DDA0140017C4ED /* Example.xcdatamodeld */,
 				3A9EDBA016DD99E00017C4ED /* MSEvent.h */,
 				3A9EDBA116DD99E00017C4ED /* MSEvent.m */,
+				41388B5B1C4D35C300A0104B /* AKEvent.h */,
+				41388B5C1C4D35C300A0104B /* AKEvent.m */,
+				41388B5E1C4D369C00A0104B /* AKSection.h */,
+				41388B5F1C4D369C00A0104B /* AKSection.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -316,10 +326,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9EDB7D16DD8FF10017C4ED /* main.m in Sources */,
+				41388B5D1C4D35C300A0104B /* AKEvent.m in Sources */,
 				3A9EDB8116DD8FF10017C4ED /* MSAppDelegate.m in Sources */,
 				3A9EDB9416DD913A0017C4ED /* MSCalendarViewController.m in Sources */,
 				3A9EDB9916DD938A0017C4ED /* MSGridline.m in Sources */,
 				3A9EDB9C16DD94940017C4ED /* MSTimeRowHeaderBackground.m in Sources */,
+				41388B601C4D369C00A0104B /* AKSection.m in Sources */,
 				3A9EDBA216DD99E00017C4ED /* MSEvent.m in Sources */,
 				3A9EDBA616DDA0140017C4ED /* Example.xcdatamodeld in Sources */,
 				3A9EDBAA16DDA7410017C4ED /* MSEventCell.m in Sources */,

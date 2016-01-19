@@ -105,6 +105,15 @@
     self.location.attributedText = [[NSAttributedString alloc] initWithString:event.location attributes:[self subtitleAttributesHighlighted:self.selected]];;
 }
 
+
+- (void)setAKEvent:(AKEvent *)event
+{
+    _akEvent = event;
+    self.title.attributedText = [[NSAttributedString alloc] initWithString:_akEvent.title attributes:[self titleAttributesHighlighted:self.selected]];
+    self.location.attributedText = [[NSAttributedString alloc] initWithString:_akEvent.location attributes:[self subtitleAttributesHighlighted:self.selected]];;
+}
+
+
 - (void)updateColors
 {
     self.contentView.backgroundColor = [self backgroundColorHighlighted:self.selected];
